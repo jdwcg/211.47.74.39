@@ -1,0 +1,49 @@
+* { margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+li { list-style: none; }
+
+a { text-decoration: none; color: #333; }
+
+/* .container { margin: 0 auto; width: 100%; max-width: 1200px; }
+.container h1 { text-align: center; }
+.container .row { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; margin: 0 auto; }
+.container .row .subMenuList { width: 100%; -webkit-box-flex: 2; -ms-flex: 2; flex: 2; border-right: 1px solid #ddd; }
+@media (max-width: 800px) { .container .row .subMenuList { display: none; } }
+.container .row .subMenuList ul { width: 100%; }
+.container .row .subMenuList ul li { overflow: hidden; -webkit-transition: .4s; transition: .4s; }
+.container .row .subMenuList ul li span { float: right; }
+.container .row .subMenuList ul li a { display: block; color: #333; font-size: 16px; -webkit-transition: .4s; transition: .4s; padding: 0.4rem 1em; }
+.container .row .subMenuList ul :hover { background-color: #ddd; }
+.container .row .subMenuList ul :hover a { color: #a81f00; }
+.container .col { width: 100%; -webkit-box-flex: 8; -ms-flex: 8; flex: 8; padding: 32px 0; } */
+.container .col #sub_a4Article { padding: 0 2em; }
+@media (max-width: 800px) { .container .col #sub_a4Article #line { padding: 0; } }
+.container .col #sub_a4Article h1 { width: 100%; font-size: 2rem; text-align: center; padding: 2rem 0; font-weight: 100; }
+@media (max-width:800px) {  .container .col #sub_a4Article h1 { font-size: 1.5rem;}  }
+.container .col .sub_a4Container { width: 100%; text-align: center; }
+.container .col .sub_a4Container section { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: 40px 0; }
+.container .col .sub_a4Container section p { background-color: #eee; padding: 15px 10px; margin: 5px 0; width: 100%; word-break: keep-all; }
+.container .col .sub_a4Container .sec2, .container .col .sub_a4Container .sec4, .container .col .sub_a4Container .sec5 { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+.container .col .sub_a4Container .sec2 div, .container .col .sub_a4Container .sec4 div, .container .col .sub_a4Container .sec5 div { width: 49.5%; }
+.container .col .sub_a4Container .sec1 { position: relative; }
+.container .col .sub_a4Container .sec1 ::before { content: ""; position: absolute; top: 10px; left: 50%; width: 1px; height: 285px; background-color: #ddd; display: block; z-index: -1; -webkit-transition: all .3s; transition: all .3s; }
+@media (max-width: 329px) { .container .col .sub_a4Container .sec1 ::before { height: 300px; } }
+.container .col .sub_a4Container .sec1 p { background-color: #a50b25; color: #fff; width: 40%; -webkit-transition: all .3s; transition: all .3s; }
+@media (max-width: 800px) { .container .col .sub_a4Container .sec1 p { width: 100%; } }
+.container .col .sub_a4Container .sec2 { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+.container .col .sub_a4Container .sec2 div { width: 40%; position: relative; }
+.container .col .sub_a4Container .sec2 div .line { display: inline-block; width: 20%; height: 1px; background-color: #ddd; position: absolute; right: 105%; top: 50%; }
+.container .col .sub_a4Container .sec2 div:nth-child(1) { display: none; }
+.container .col .sub_a4Container .sec3 { position: relative; }
+.container .col .sub_a4Container .sec3 ::before { content: ""; position: absolute; top: 10px; left: 25%; width: 1px; height: 425px; background-color: #ddd; display: block; z-index: -1; }
+.container .col .sub_a4Container .sec3 ::after { content: ""; position: absolute; top: 10px; right: 25%; width: 1px; height: 425px; background-color: #ddd; display: block; z-index: -1; }
+.container .col .sub_a4Container .sec3 p { background-color: #aaa; }
+.container .col .sub_a4Container .sec4 p { background-color: #333; color: #fff; }
+
+/*# sourceMappingURL=sub_a4.css.map */
+
+
+/* 영문버전 */
+
+
+.container .col .sub_a4Container .sec1-en ::before { content: ""; position: absolute; top: 10px; left: 50%; width: 1px; height: 385px; background-color: #ddd; display: block; z-index: -1; -webkit-transition: all .3s; transition: all .3s; }
